@@ -1,1 +1,8 @@
 /* YOUR CSS GOES HERE */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
