@@ -130,5 +130,21 @@ article p:after {
 /* 720px Version*/
 
 @media screen and (min-width:720px) {
-  
+
+body>* {
+    width: 500px;
+  }
+
+article h1, article h2, article p span {
+  float: right;
+  width: 50%;
+}
+
+article h2 {
+  clear: both;
+}
+
+img.cover-img {
+  max-width: 45%;
+  float: left;
 }
