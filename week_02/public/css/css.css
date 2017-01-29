@@ -106,3 +106,29 @@ article p:hover:after {
 footer {
     margin-bottom: 3rem;
 }
+
+
+/* 480px Version*/
+
+@media screen and (min-width: 480px) {
+
+body>* {
+  width: 400px;
+}
+
+article p span {
+    display: block;
+}
+
+article p:after {
+  content: none;
+}
+
+}
+
+
+/* 720px Version*/
+
+@media screen and (min-width:720px) {
+  
+}
