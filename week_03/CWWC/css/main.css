@@ -41,6 +41,7 @@ img.menuicon {
   top: 2.5%;
   left: 2.5%;
   z-index: 9999;
+  cursor: pointer;
 }
 
 h1 {
@@ -88,8 +89,42 @@ i {
   display: none;
 }
 
+.nav-open .menuicon {
+  display: none;
+}
+
 .nav-open .mainnav-menu{
   display: block;
+  background-color: HSLA(28, 100%, 55%, .95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 0 2rem 2rem;
+  overflow-y: scroll;
+}
+
+.mainnav-menu li {
+  list-style-type: none;
+}
+
+.mainnav-menu i, .mainnav-menu a {
+  display: block;
+  text-align: left;
+  font-size: 3em;
+  color: #fff;
+}
+
+.mainnav-menu i {
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.mainnav-menu a {
+  text-decoration: none;
+  font-family: "mrs-eaves-roman-petite-caps", serif;
+  line-height: 1.6em;
 }
 
 

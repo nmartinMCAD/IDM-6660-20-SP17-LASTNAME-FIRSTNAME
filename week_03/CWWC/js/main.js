@@ -11,7 +11,7 @@ navButton.addEventListener('click',
 });
 
 var closeButton =
-document.querySelector('.close-icon')
+document.querySelector('.fa-times')
 
 closeButton.addEventListener('click',
 	function() {
