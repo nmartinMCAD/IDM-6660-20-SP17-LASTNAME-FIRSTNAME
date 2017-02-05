@@ -14,6 +14,7 @@ body {
 
 header {
   margin-bottom: 3rem;
+  position: relative;
 }
 
 main {
@@ -26,8 +27,7 @@ img {
 }
 
 img.cover {
-  position: relative;
-  opacity: .8;
+  opacity: .7;
 }
 
 img.menuicon {
@@ -39,26 +39,27 @@ img.menuicon {
 
 h1 {
   position: absolute;
-  top: 2.5%;
-  right: 0;
+  bottom: 5%;
+  right: 2%;
   color: #fff;
-  width: 300px;
   margin-right: 1rem;
-  font-size: 12vw;
-  line-height: 1.4em;
+  font-family: "american-scribe";
+  font-size: 13.5vw;
+  line-height: 1.2em;
   letter-spacing: .05em;
   text-align: right;
 }
 
 h2 {
+  font-family: "mrs-eaves-roman-petite-caps";
   font-size: 2.5em;
   margin-bottom: 2rem;
   border-bottom: 1px solid #000;
   text-align: left;
 }
 
-a {
-  font-family: sans-serif;
+p, a {
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
 }
 
 .mainnav-menu {
@@ -72,13 +73,13 @@ section {
 section p {
   text-align: left;
   font-size: 1.4em;
-  line-height: 1.4em;
+  line-height: 1.6em;
   margin-bottom: 3.5rem;
 }
 
 section a {
-  font-family: sans-serif;
   font-size: 1.5em;
+  font-weight: 700;
   text-decoration: none;
   color: #FF851B;
   text-transform: uppercase;
@@ -95,6 +96,7 @@ section.mission {
 }
 
 .bg-text {
+  font-family: "mrs-eaves-roman-petite-caps";
   font-size: 12vw;
   color: #eee;
   text-align: left;
