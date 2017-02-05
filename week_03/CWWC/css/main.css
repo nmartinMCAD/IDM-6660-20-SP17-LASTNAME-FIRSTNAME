@@ -88,6 +88,9 @@ i {
   display: none;
 }
 
+.nav-open .mainnav-menu{
+  display: block;
+}
 
 
 /*section specific styles*/
