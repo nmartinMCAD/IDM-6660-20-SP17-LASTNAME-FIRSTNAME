@@ -12,14 +12,21 @@ body {
   text-align: center;
 }
 
+header {
+  margin-bottom: 3rem;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
 img {
   max-width: 100%;
 }
 
 img.cover {
   position: relative;
-  min-height: 100%;
-  min-width: 100%;
   opacity: .8;
 }
 
@@ -37,7 +44,7 @@ h1 {
   color: #fff;
   width: 300px;
   margin-right: 1rem;
-  font-size: 3.5em;
+  font-size: 12vw;
   line-height: 1.4em;
   letter-spacing: .05em;
   text-align: right;
@@ -46,21 +53,83 @@ h1 {
 h2 {
   font-size: 2.5em;
   margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+  text-align: left;
+}
+
+a {
+  font-family: sans-serif;
 }
 
 .mainnav-menu {
   display: none;
 }
 
-.bg-text {
-  font-size: 4em;
-  color: #eee;
+section {
+  margin-bottom: 8rem;
+}
+
+section p {
   text-align: left;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-bottom: 3.5rem;
+}
+
+section a {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #FF851B;
+  text-transform: uppercase;
+  display: block;
+  text-align: right;
+}
+
+i {
+  padding-right: .5rem;
+}
+
+section.mission {
   position: relative;
 }
 
-section {
-  margin-top: 3rem;
+.bg-text {
+  font-size: 12vw;
+  color: #eee;
+  text-align: left;
+  line-height: 1.5em;
+  text-align: right;
+  position: fixed;
+  top: 1em;
+  right: .3em;
+  z-index: -10;
+}
+
+footer {
+  background-color: #FF851B;
+  padding: 4rem 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: 6rem;
+}
+
+
+footer a {
+  display: block;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.email {
+  text-transform: lowercase;
 }
 
 @media screen and (min-width: 480px) {
