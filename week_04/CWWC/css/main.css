@@ -1,0 +1,225 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+}
+
+header {
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 10;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 14rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+i.fa-bars {
+  font-size: 2em;
+  position: fixed;
+  top: 1.5%;
+  left: 2.5%;
+  z-index: 9999;
+  color: #FF851B;
+  cursor: pointer;
+  border: 1px solid #FF851B;
+  padding: .35rem .5rem;
+}
+
+a.bttn {
+  position: fixed;
+  top: 1.5%;
+  right: 2.5%;
+  z-index: 5;
+  text-decoration: none;
+  color: #FF851B;
+  font-size: 1.55em;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #FF851B;
+  padding: .15rem .5rem;
+}
+
+i.fa-bars:hover, a.bttn:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: #FF851B;
+}
+
+div.colorbar {
+  background-color: #fff;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(117,117,117,0.3);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(117,117,117,0.3);
+  box-shadow: 0px 1px 0px 0px rgba(117,117,117,0.3);
+}
+
+h1 {
+  position: absolute;
+  bottom: 5%;
+  right: 2.5%;
+  color: #fff;
+  margin-right: 1rem;
+  font-family: "american-scribe", serif;
+  font-size: 13vw;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+  text-shadow: .1rem .1rem #333;
+}
+
+h2 {
+  font-family: "mrs-eaves-roman-petite-caps", serif;
+  font-size: 10vw;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+  text-align: left;
+}
+
+i {
+  padding-right: .5rem;
+}
+
+.bg-text {
+  font-family: "mrs-eaves-roman-petite-caps";
+  font-size: 12vw;
+  color: #ddd;
+  opacity: .5;
+  text-align: left;
+  line-height: 1.5em;
+  text-align: right;
+  position: fixed;
+  top: 2em;
+  right: .3em;
+  z-index: -10;
+}
+
+
+/* Navigation (collapsed for mobile) */
+
+.mainnav-menu {
+  display: none;
+}
+
+.nav-open .fa-bars {
+  display: none;
+}
+
+.nav-open .mainnav-menu{
+  display: block;
+  background-color: HSLA(28, 100%, 55%, .95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 0 2rem 2rem;
+  overflow-y: scroll;
+}
+
+.mainnav-menu li {
+  list-style-type: none;
+}
+
+.mainnav-menu i, .mainnav-menu a {
+  display: block;
+  text-align: left;
+  font-size: 3em;
+  color: #fff;
+}
+
+.mainnav-menu i {
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.mainnav-menu a {
+  text-decoration: none;
+  font-family: "mrs-eaves-roman-petite-caps", serif;
+  line-height: 1.6em;
+}
+
+
+/*section specific styles*/
+
+section p {
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin-bottom: 1.5rem;
+}
+
+section a {
+  font-size: 5.5vw;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FF851B;
+  text-transform: uppercase;
+  display: block;
+  text-align: right;
+}
+
+
+/*page footer*/
+
+footer {
+  background-color: #FF851B;
+  padding: 4rem 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 5vw;
+  line-height: 1.5em;
+  margin-top: 6rem;
+}
+
+
+footer a {
+  display: block;
+  color: #fff;
+  font-size: 5.5vw;
+  line-height: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.email {
+  text-transform: lowercase;
+}
+
+
+
+/* >480px Styles */
+
+@media screen and (min-width: 480px) {
+
+* {
+  display: none;
+}
+
+}
