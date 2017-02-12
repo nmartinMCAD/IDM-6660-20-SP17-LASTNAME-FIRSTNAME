@@ -1,0 +1,50 @@
+Post-Critique Corrections
+
+What I spent most of my time on was a solution for my fixed nav, as well as the light, ghosted text in the background. Beyond that,
+I made my copy smaller, the main image crisper (removed opacity), and put a drop shadow on the h1 over the image so it was easier to
+read. As far as font sizes go, I played around a lot with vw units. I haven't formally studied them yet, but I feel like they make
+sense for mobile since they're different sizes of mobile devices. I might be off base, but I feel like it's working for now.
+
+Navigation:
+
+Robert, I know you moved my nav button down to the bottom corner to get it off the image, mostly because it was so large. Other students
+addressed the fixed icon as well. Mostly how it was big, distracting, and an image itself. What I did, was take the image out, replace
+it with fontawesome bars, and styled it different. I made it orange, and while it still lays over the image, when you scroll down,
+you'll notice that a fixed nav bar comes out from underneath, that menu icon then sits on top of the page. I put a Donate button on the same
+bar because I thought that was an excellent suggestion from Brigit. In the end I decided to keep it on the top, but I'm hoping my
+style changes make it less distracting/conflicting with the main content. Let me know what you think, though.
+
+
+Ghost text:
+
+So I put that text that says "Education, Conservation, Preservation" in the background because it's the 3 key terms in
+the organizations original logo, and I wanted to keep that on the site at all times, which is why I used fixed positioning. This text was
+brought up by multiple students and I think the broad consensus was that something wasn't working. It was conflicting with the main copy,
+it was mistaken for a separate menu, and like you said, you never got to see all the terms at the same time. So what I did was in
+addition to reducing its opacity a bit more, and I spaced out the main copy sections some more, despite that one point of feedback was that
+the paragraphs were spaced too much to begin with. I'm admittedly a bit on the fence on how much space there is, but it does let
+you see the ghost text better, which I want to keep. The sections of copy are now liberally spaced apart, which is kind of cool in
+that they become really pronounced since they each occupy a screen alone, but again, let me know what you think.
+
+
+What I chose not to act upon:
+
+-Stacy's suggestions of going back to the black background of the original site. Don't get me wrong, I agree that black can create more
+drama and mystery,but I feel like black backgrounds on devices are most effective for low to no-light situations, like if you were reading
+it in the dark. Eventually, I want to learn how to JavaScript in this kind of option, but that's a ways off. I've barely got a handle on
+menus that toggle on and off.
+
+-Stacy's suggestion of not using orange. It's something I didn't get around to playing with, but I do think there are a lot of colors
+that could work better. It's something that I think in real life I would work closely with the client on. For now, I chose to keep
+the orange, especially for CTAs because they really pop from the rest of the content. I think Dan said it well, as this is something
+I didn't realize it at the time I first styled them, but they work well for the "distracted user".
+
+-Brigit's suggestion to reduce the space between the sections of copy. I actually had to space them apart more so that the fixed ghost
+text was less of a conflict. Also, perhaps with more space, it looks more intentional, and less of an oversight. 
+
+
+Robert, to answer your questions about whether or not I justified the text right to make room for the hamburger menu, I did. Well,
+I aligned it to the right, but it wasn't to make room for the menu. It was mostly just a style choice. Or rather, I thought it would
+look cool. But you're right in how I can see peoples' eyes being drawn to the ampersand first. I took that justification off, and
+along with my other changes to the title, I'm hoping it's more readbale. Also, I noticed your screen shot didn't have my chosen fonts.
+I know I included fall back fonts, but I was wondering if you had seen my intended ones.
