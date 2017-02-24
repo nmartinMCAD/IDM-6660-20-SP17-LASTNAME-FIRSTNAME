@@ -29,18 +29,18 @@ that they become really pronounced since they each occupy a screen alone, but ag
 
 What I chose not to act upon:
 
--Stacy's suggestions of going back to the black background of the original site. Don't get me wrong, I agree that black can create more
+-Stacy's suggestion of going back to the black background of the original site. Don't get me wrong, I agree that black can create more
 drama and mystery,but I feel like black backgrounds on devices are most effective for low to no-light situations, like if you were reading
 it in the dark. Eventually, I want to learn how to JavaScript in this kind of option, but that's a ways off. I've barely got a handle on
 menus that toggle on and off.
 
 -Stacy's suggestion of not using orange. It's something I didn't get around to playing with, but I do think there are a lot of colors
 that could work better. It's something that I think in real life I would work closely with the client on. For now, I chose to keep
-the orange, especially for CTAs because they really pop from the rest of the content. I think Dan said it well, as this is something
+the orange, especially for CTAs because they really pop from the rest of the content. I think Dan said it well, and this is something
 I didn't realize it at the time I first styled them, but they work well for the "distracted user".
 
 -Brigit's suggestion to reduce the space between the sections of copy. I actually had to space them apart more so that the fixed ghost
-text was less of a conflict. Also, perhaps with more space, it looks more intentional, and less of an oversight. 
+text was less of a conflict. Also, perhaps with more space, it looks more intentional, and less of an oversight.
 
 
 Robert, to answer your questions about whether or not I justified the text right to make room for the hamburger menu, I did. Well,
