@@ -95,13 +95,131 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+   }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+   }
+
+@font-face {
+  font-family: 'Jaapokki';
+  src: url(../fonts/jaapokki-regular.woff);
+}
+
+body {
+  font-family: 'Comfortaa', Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: #000;
+}
+
+main {
+  margin: auto;
+  margin-top: 56vw;
+  width: 90%;
+}
+
+h1, i {
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive, sans-serif;
+  margin: 0;
+  position: absolute;
+  top: .2rem;
+  right: 1rem;
+  font-size: 2.75em;
+}
+
+/*can't figure out how to change the size on this*/
+i.fa-microchip {
+  font-size: 2.5em;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 63vw;
+  transform: translateX(-50%);
+  font-size: 20vw;
+  line-height: 1em;
+}
+
+.hexagon-textures {
+  position: absolute;
+  top: 1.8rem;
+  z-index: -10;
+  width: 100%;
+}
+
+img.hextext1, img.hextext2, img.hextext3 {
+  width: 20%;
+}
+
+img.hextext2 {
+  position: absolute;
+  top: 9.5vw;
+}
+
+img.hextext3 {
+  position: absolute;
+  top: 9.5vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img.hextext1flip {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+img.hextext2flip {
+  position: absolute;
+  top: 9.5vw;
+  right: 20%;
+  width: 20%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.mainhex {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 480px) {
+
+* {
+  display: none;
+}
 
 
-
-
-
-
-
+}
 
 
 
