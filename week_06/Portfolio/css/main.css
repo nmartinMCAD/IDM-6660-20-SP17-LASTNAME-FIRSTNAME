@@ -116,10 +116,10 @@ body {
 header {
   width: 100%;
   height: 75px;
+  background: #E01795;
   position: fixed;
   top: 0;
   z-index: 9999;
-  background: #E01795;
 }
 
 main {
@@ -142,6 +142,10 @@ footer p {
 
 
 /* NavBar */
+div.desktop-navicons {
+  display: none;
+}
+
 h1, i {
   color: #fff;
 }
@@ -161,7 +165,6 @@ i.fa-microchip {
   top: 1rem;
   left: 1rem;
 }
-
 
 /* circuitry textures under NavBar */
 .hexagon-textures {
@@ -183,8 +186,7 @@ img.hextext2 {
 img.hextext3 {
   position: absolute;
   top: 9.5vw;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 40%;
 }
 
 img.hextext1flip {
@@ -214,18 +216,24 @@ img.hextext2flip {
 
 
 /* Main Page Title */
-.mainhex {
-  display: block;
-  margin: auto;
+article.pagetitle {
+  position: relative;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.pagetitle img {
+  max-width: 430px;
 }
 
 h2.hexcontent {
-  font-family: 'Permanent Marker', cursive, sans-serif;
   position: absolute;
+  top: 50%;
   left: 50%;
-  top: 63vw;
-  transform: translateX(-50%);
-  font-size: 20vw;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-family: 'Permanent Marker', cursive, sans-serif;
+  font-size: 18vw;
   line-height: 1em;
 }
 
@@ -247,7 +255,7 @@ section.category {
   font-family: 'Jaapokki', Helvetica, sans-serif;
   font-size: 8vw;
   margin: 0;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .category p {
@@ -262,6 +270,7 @@ section.category {
   right: 0;
   z-index: -10;
   width: 20vw;
+  max-width: 100px;
 }
 
 a.categorybttn {
@@ -281,28 +290,18 @@ a.categorybttn i {
 /* web showcase styling template - requires images be optimized in photoshop */
 div.webwork {
   position: relative;
+  margin-top: 6rem;
 }
 
 .webwork h3 {
   color: #F808ED;
 }
-.webimg {
-  position: relative;
-}
 
-.webimg img {
-  max-width: 100%;
-  -webkit-box-shadow: 0px 0px .5px .5px rgba(248,8,237,1);
-  -moz-box-shadow: 0px 0px .5px .5px rgba(248,8,237,1);
-  box-shadow: 0px 0px .5px .5px rgba(248,8,237,1);
-}
-
-.secondimg {
-  position: absolute;
-  top: 4.5rem;
-  right: 1rem;
-  width: 33%;
-}
+img.webshowcase {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
 
 .webwork a {
   color: #000;
@@ -324,6 +323,7 @@ div.webwork {
 
 .footericon {
   width: 50%;
+  max-width: 15rem;
   position: absolute;
   top: 10%;
   left: 50%;
@@ -332,12 +332,14 @@ div.webwork {
 
 .footertexture {
   width: 20vw;
+  max-width: 6rem;
   position: absolute;
   bottom: 0;
 }
 
 .footertextureflip {
   width: 20vw;
+  max-width: 6rem;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -351,6 +353,7 @@ div.webwork {
 
 .footertexturecenter {
   width: 35vw;
+  max-width: 10rem;
   position: absolute;
   bottom: 5vw;
   left: 50%;
@@ -359,16 +362,136 @@ div.webwork {
 
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
 
-* {
-  display: none;
+main {
+  margin-top: 17rem;
 }
 
+img.hextext1, img.hextext2, img.hextext3, img.hextext2flip, img.hextext1flip {
+  top: 2.8rem;
+  max-width: 6rem;
+}
+
+img.hextext1 {
+  position: absolute;
+  top: 0;
+  right: 24rem;
+}
+
+img.hextext2 {
+  right: 18rem;
+}
+
+/* NOT SURE WHY I HAD TO DO THIS :/ */
+img.hextext1flip {
+  top: 0;
+}
+
+img.hextext2flip {
+  right: 6rem;
+}
+
+img.hextext3 {
+  right: 12rem;
+}
+
+article.pagetitle {
+  float: right;
+  width: 435px;
+  clear: both;
+  margin-right: -3%;
+}
+
+h2.hexcontent {
+  font-size: 5.5em;
+}
+
+section.category {
+  float: right;
+  max-width: 600px;
+  clear: both;
+}
+
+.category h3 {
+  font-size: 4em;
+}
+
+.category h4 {
+  font-size: 2.5em;
+}
+
+.category p {
+  font-size: 1.2em;
+}
+
+.categorylogo {
+  top: .5rem;
+}
+
+.footertexturecenter {
+  bottom: 2rem;
+}
 
 }
 
+@media screen and (min-width: 1081px) {
 
+header {
+  width: 25%;
+  height: 100%;
+}
+
+div.desktop-navicons {
+  display: block;
+  margin-top: 8rem;
+}
+
+.desktop-navicons img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.hexagon-textures {
+  top: 0;
+}
+
+img.hextext1, img.hextext2, img.hextext3, img.hextext2flip, img.hextext1flip {
+  top: 0;
+  max-width: 10rem;
+}
+
+img.hextext1 {
+  right: 40rem;
+}
+
+img.hextext2 {
+  right: 30rem;
+}
+
+img.hextext3 {
+  right: 20rem;
+}
+
+img.hextext2flip {
+  right: 10rem;
+}
+
+article.pagetitle {
+  float: right;
+  width: 435px;
+  clear: both;
+  margin-right: 8rem;
+  margin-top: 3rem;
+}
+
+footer {
+  float: right;
+  width: 75%;
+}
+
+}
 
 
 
