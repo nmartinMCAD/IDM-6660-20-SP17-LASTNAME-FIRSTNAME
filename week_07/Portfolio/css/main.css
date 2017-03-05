@@ -33,15 +33,11 @@ main {
 }
 
 footer {
-  height: 350px;
+  height: 400px;
   background-color: #000;
   width: 100%;
   margin-top: 15rem;
   position: relative;
-}
-
-footer p {
-  color: #fff;
 }
 
 
@@ -215,6 +211,26 @@ img.webshowcase {
 
 
 /*Footer Styles*/
+.socmedia {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+div.socmedia i {
+  color: #fff;
+}
+
+i.fa-facebook-official, i.fa-linkedin-square, i.fa-instagram, i.fa-tumblr-square {
+  font-size: 3.6em;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 1.6em;
+}
+
 .footericon {
   width: 50%;
   max-width: 15rem;
