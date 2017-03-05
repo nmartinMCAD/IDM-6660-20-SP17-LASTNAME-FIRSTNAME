@@ -140,7 +140,7 @@ section.category {
 
 .categorylogo {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   right: 0;
   z-index: -10;
   width: 20vw;
@@ -211,7 +211,7 @@ img.webshowcase {
 
 
 /*Footer Styles*/
-.socmedia {
+div.socmedia {
   text-align: center;
   padding-top: 3rem;
 }
@@ -272,11 +272,6 @@ footer p {
 }
 
 
-div.clearfix {
-  clear: both;
-}
-
-
 @media screen and (min-width: 481px) {
 
 header {
@@ -305,15 +300,14 @@ div.hexagon-textures {
   display: none;
 }
 
-div.footmobile {
-  display: none;
-}
-
 h2.hexcontent {
   font-size: 6em;
   padding-bottom: 1rem;
 }
 
+.categorylogo {
+  top: 1rem;
+}
 
 .category h3 {
   font-size: 4em;
@@ -327,6 +321,52 @@ h2.hexcontent {
   font-size: 1em;
 }
 
+footer {
+  height: 200px;
+}
 
+div.footmobiletextures {
+  display: none;
+}
+
+div.socmedia, footer p {
+  text-align: right;
+  padding-right: 3rem;
+}
+
+
+@media screen and (min-width: 1080px) {
+
+header {
+  width: 15%;
+  overflow: scroll;
+}
+
+i.fa-microchip {
+  display: none;
+}
+
+h1 {
+  position: static;
+  float: none;
+  text-align: center;
+  -ms-transform: none; /* IE 9 */
+  -webkit-transform: none; /* Safari */
+  transform: none;
+  font-size: 2.5vw;
+}
+
+div.desktop-navicons {
+  display: block;
+  margin-top: 3rem;
+}
+
+.desktop-navicons img {
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-bottom: 4rem;
+  cursor: crosshair;
+}
 
 }
