@@ -41,6 +41,8 @@ footer {
 }
 
 
+
+
 /* Header Content */
 h1, i.fa-microchip {
   color: #fff;
@@ -64,6 +66,8 @@ span.firstname {
 div.desktop-navicons {
   display: none;
 }
+
+
 
 
 /* circuitry textures under NavBar */
@@ -132,10 +136,12 @@ h2.hexcontent {
 }
 
 
+
+
 /* Section Styling */
 section.category {
   position: relative;
-  margin-top: 5rem;
+  margin: 10rem 0 20rem 0;
 }
 
 .categorylogo {
@@ -178,6 +184,8 @@ a.categorybttn i {
 }
 
 
+
+
 /* web showcase styling template - requires images be optimized in photoshop */
 div.webwork {
   position: relative;
@@ -208,6 +216,140 @@ img.webshowcase {
   color: #fff;
   background-color: #F808ED;
 }
+
+
+
+
+/* Writing Work Section */
+div.writingwork {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.writingwork h3, .writingwork a.categorybttn, .writingwork .categorybttn i {
+  color: #03F9DD;
+}
+
+img.writingimg {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.writingwork a {
+  color: #000;
+  text-decoration: none;
+}
+
+.writingwork a.categorybttn {
+  border: 1px solid #03F9DD;
+}
+
+.writingwork a.categorybttn:hover {
+  color: #fff;
+  background-color: #03F9DD;
+}
+
+
+
+
+/* Photo Work Section */
+div.photowork {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.photowork h3, .photowork a.categorybttn, .photowork .categorybttn i {
+  color: #06BEE1;
+}
+
+img.photoimg {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.photowork a {
+  color: #000;
+  text-decoration: none;
+}
+
+.photowork a.categorybttn {
+  border: 1px solid #06BEE1;
+}
+
+.photowork a.categorybttn:hover {
+  color: #fff;
+  background-color: #06BEE1;
+}
+
+
+
+
+/* Games Work Section */
+div.gameswork {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.gameswork h3, .gameswork a.categorybttn, .gameswork .categorybttn i {
+  color: #FEAC2B;
+}
+
+img.gamesimg {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.gameswork a {
+  color: #000;
+  text-decoration: none;
+}
+
+.gameswork a.categorybttn {
+  border: 1px solid #FEAC2B;
+}
+
+.gameswork a.categorybttn:hover {
+  color: #fff;
+  background-color: #FEAC2B;
+}
+
+
+
+
+/* Music Work Section */
+div.musicwork {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.musicwork h3, .musicwork a.categorybttn, .musicwork .categorybttn i {
+  color: #042439;
+}
+
+img.musicimg {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.musicwork a {
+  color: #000;
+  text-decoration: none;
+}
+
+.musicwork a.categorybttn {
+  border: 1px solid #042439;
+}
+
+.musicwork a.categorybttn:hover {
+  color: #fff;
+  background-color: #042439;
+}
+
+
 
 
 /*Footer Styles*/
@@ -272,6 +414,9 @@ footer p {
 }
 
 
+
+
+/* 481px - 1080px styling */
 @media screen and (min-width: 481px) {
 
 header {
@@ -335,11 +480,20 @@ div.socmedia, footer p {
 }
 
 
+
+
+
+/* <1080px styling */
 @media screen and (min-width: 1080px) {
 
 header {
   width: 15%;
   overflow: scroll;
+}
+
+main {
+  margin: auto;
+  margin-top: 4rem;
 }
 
 i.fa-microchip {
