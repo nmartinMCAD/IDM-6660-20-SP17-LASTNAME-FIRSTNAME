@@ -1,0 +1,2 @@
+body{margin:auto;font-family:sans-serif}body h1{display:block;text-align:center;margin-top:10rem;color:#000}body img{display:none}@media screen and (min-width: 480px){body{width:60%;font-family:cursive}body h1{font-size:3em}}@media screen and (min-width: 720px){body{width:90%;font-family:fantasy;background-color:yellow}body h1{color:#fff;font-size:6em;text-shadow:2px 2px #03F9DD}body img{display:block;margin:auto;width:600px}}
+/*# sourceMappingURL=css.css.map */

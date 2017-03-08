@@ -1,0 +1,19 @@
+/* DESKTOP STYLEY */
+@media screen and (min-width: 720px) {
+
+body {
+  width: 90%;
+  font-family: fantasy;
+  background-color: yellow;
+  h1 {
+    color: #fff;
+    font-size: 6em;
+    text-shadow: 2px 2px #03F9DD;
+  }
+  img {
+    display: block;
+    margin: auto;
+    width: 600px;
+  }
+}
+}
