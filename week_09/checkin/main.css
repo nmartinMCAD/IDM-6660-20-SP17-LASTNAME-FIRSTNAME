@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+  margin-top: 10rem;
+  width: 1060px;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.75em;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
