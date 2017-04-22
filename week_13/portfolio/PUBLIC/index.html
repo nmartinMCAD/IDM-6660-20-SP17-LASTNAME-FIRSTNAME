@@ -6,18 +6,32 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <title>Nick Martin &mdash; PORTFOLIO</title>
      <link rel="stylesheet" href="css/css.css">
-     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rubik:400,700,900" rel="stylesheet">
      <script src="https://use.fontawesome.com/6c1226a779.js"></script>
  </head>
 
  <body>
    <header>
-       <i class="fa fa-microchip" aria-hidden="true"></i>
+      <input type="checkbox" name="menu-controller-checkbox" id="menu-controller-checkbox" class="menu-controller-checkbox" value="value">
+      <label for="menu-controller-checkbox" class="menu-controller-label"><i class="fa fa-microchip" aria-hidden="true"></i></label>
+
        <h1>N.Martin</h1>
+
+       <nav>
+         <ul>
+           <li><a href="index.html#web"><img src="img/laptop_computer-white.svg" alt="icon of laptop computer"><h3>web</h3></a></li>
+           <li><a href="index.html#writing"><img src="img/brand_book-white.svg" alt="icon of open book"><h3>written</h3></a></li>
+           <li><a href="index.html#photo"><img src="img/digital_camera-white.svg" alt="icon of camera"><h3>photo</h3></a></li>
+           <li><a href="index.html#music"><img src="img/hi-fi_audio_speaker-white.svg" alt="icon of audio speaker"><h3>music</h3></a></li>
+           <li><a href="#!">bio</a></li>
+           <li><a href="#!">contact</a></li>
+         </ul>
+         <label for="menu-controller-checkbox" class="menu-controller-label"><i class="fa fa-window-close" aria-hidden="true"></i></label>
+       </nav>
    </header>
 
 
-   <main class="DocScroller">
+   <main>
      <section class="sitesection">
        <article class="pagetitle">
          <h2 class="title">Port<br>folio</h2>
@@ -26,66 +40,64 @@
        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
      </section>
 
-     <section class="sitesection">
-         <div class="webwork">
-           <h3>Web</h3>
-           <img class="categorylogo" src="img/laptop_computer.svg" alt="tablet icon">
-           <a href="#!">
-           <img class="webshowcase" src="img/covalent-showcase.jpg" src="screenshots of Covalent site">
-           <h4>Covalent</h4>
-           <p>Science fiction website completed as final project of Web Design course at the Minneapolis College of Art &amp; Design.</p>
-           </a>
-           <a class="categorybttn" href="#!">more projects</a>
-         </div>
+     <section id="web">
+       <section class="sitesection">
+           <div class="webwork">
+             <h3>Web</h3>
+             <img class="categorylogo" src="img/laptop_computer.svg" alt="tablet icon">
+             <a href="#!">
+             <img class="webshowcase" src="img/covalent-showcase.jpg" src="screenshots of Covalent site">
+             <h4>Covalent</h4>
+             <p>Science fiction website completed as final project of Web Design course at the Minneapolis College of Art &amp; Design.</p>
+             </a>
+             <a class="categorybttn" href="#!">more projects</a>
+           </div>
+        </article>
+     </section>
+     </div>
+
+     <section id="writing">
+       <section class="sitesection">
+           <div class="writingwork">
+             <h3>Writing</h3>
+             <img class="categorylogo" src="img/brand_book.svg" alt="book icon">
+             <a href="#!">
+             <h4>A Marketing Noob</h4>
+             <p>Marketing blog for my Digital Marketing Prinicples course at the Minneapolis College of Art &amp; Design.</p>
+             </a>
+             <a class="categorybttn" href="#!">more projects</a>
+           </div>
+       </section>
      </section>
 
-     <section class="sitesection">
-         <div class="writingwork">
-           <h3>Writing</h3>
-           <img class="categorylogo" src="img/brand_book.svg" alt="book icon">
-           <a href="#!">
-           <img class="writingimg" src="img/blogscreenshot.png" src="screenshot of a marketing noob blog">
-           <h4>A Marketing Noob</h4>
-           <p>Marketing blog for my Digital Marketing Prinicples course at the Minneapolis College of Art &amp; Design.</p>
-           </a>
-           <a class="categorybttn" href="#!">more projects</a>
-         </div>
+     <section id="photo">
+       <section class="sitesection">
+           <div class="photowork">
+             <h3>Photo</h3>
+             <img class="categorylogo" src="img/digital_camera.svg" alt="camera icon">
+             <a href="#!">
+
+             <h4>Molten</h4>
+             <p>Aerial series of photos of lava flows in Hawaii Volcanoes National Park.</p>
+             </a>
+             <a class="categorybttn" href="#!">more projects</a>
+           </div>
+       </section>
      </section>
 
-     <section class="sitesection">
-         <div class="photowork">
-           <h3>Photo</h3>
-           <img class="categorylogo" src="img/digital_camera.svg" alt="camera icon">
-           <a href="#!">
-           <img class="photoimg" src="img/lavaflow.jpg" src="photo of lava flow">
-           <h4>Molten</h4>
-           <p>Aerial series of photos of lava flows in Hawaii Volcanoes National Park.</p>
-           </a>
-           <a class="categorybttn" href="#!">more projects</a>
-         </div>
-     </section>
-
-     <section class="sitesection">
-         <div class="gameswork">
-           <h3>Games</h3>
-           <img class="categorylogo" src="img/mobile_games.svg" alt="mobile game icon">
-           <a href="#!">
-           <h4>Coming Soon</h4>
-           </a>
-           <a class="categorybttn" href="#!">more projects</a>
-         </div>
-     </section>
-
-     <section class="sitesection">
-         <div class="musicwork">
-           <h3>Music</h3>
-           <img class="categorylogo" src="img/hi-fi_audio_speaker.svg" alt="speaker icon">
-           <a href="#!">
-           <h4>Coming Soon</h4>
-           </a>
-           <a class="categorybttn" href="#!">more projects</a>
-         </div>
-     </section>
+     <section id="music">
+       <section class="sitesection">
+           <div class="musicwork">
+             <h3>Music</h3>
+             <img class="categorylogo" src="img/hi-fi_audio_speaker.svg" alt="speaker icon">
+             <a href="#!">
+               <h4>Red Orange Yellow</h4>
+               <p>Band I was in. We did some synth stuff.</p>
+             </a>
+             <a class="categorybttn" href="#!">more projects</a>
+           </div>
+       </section>
+      </section>
    </main>
 
    <footer>
