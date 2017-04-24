@@ -8,100 +8,84 @@
      <link rel="stylesheet" href="css/css.css">
      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rubik:400,700,900" rel="stylesheet">
      <script src="https://use.fontawesome.com/6c1226a779.js"></script>
- </head>
+</head>
 
- <body>
-   <header>
-       <nav>
-         <ul>
-           <li><a href="index.html#web"><img src="img/laptop_computer-white.svg" alt="icon of laptop computer"><h3>web</h3></a></li>
-           <li><a href="index.html#writing"><img src="img/brand_book-white.svg" alt="icon of open book"><h3>written</h3></a></li>
-           <li><a href="index.html#photo"><img src="img/digital_camera-white.svg" alt="icon of camera"><h3>photo</h3></a></li>
-           <li><a href="index.html#music"><img src="img/hi-fi_audio_speaker-white.svg" alt="icon of audio speaker"><h3>music</h3></a></li>
-           <li><a href="#!">bio</a></li>
-           <li><a href="#!">contact</a></li>
-         </ul>
-         <label for="menu-controller-checkbox" class="menu-controller-label"><i class="fa fa-window-close" aria-hidden="true"></i></label>
-       </nav>
-   </header>
+<body>
+  <header>
+    <h1>Nick Martin</h1>
+  </header>
 
+  <main>
+    <article class="pagetitle">
+      <h2 class="title">Port<br>folio</h2>
+    </article>
 
-   <main>
-     <article class="pagetitle">
-         <a href="#!">written</a>
-         <a href="#!">photo</a>
-         <a href="#!">audio</a>
-         <h2 class="title">Port<br>folio</h2>
-     </article>
+  <section class="section-controllers">
+      <input type="checkbox" name="web-section-checkbox" id="web-section-checkbox" class="web-section-checkbox" value="value">
+      <label for="web-section-checkbox" class="web-section-label">web</label>
 
-     <input type="checkbox" name="web-section-checkbox" id="web-section-checkbox" class="web-section-checkbox" value="value">
-     <label for="web-section-checkbox" class="web-section-label">web</label>
+      <input type="checkbox" name="writing-section-checkbox" id="writing-section-checkbox" class="writing-section-checkbox" value="value">
+      <label for="writing-section-checkbox" class="writing-section-label">writing</label>
 
-     <input type="checkbox" name="writing-section-checkbox" id="writing-section-checkbox" class="writing-section-checkbox" value="value">
-     <label for="writing-section-checkbox" class="writing-section-label">writing</label>
+      <input type="checkbox" name="photo-section-checkbox" id="photo-section-checkbox" class="photo-section-checkbox" value="value">
+      <label for="photo-section-checkbox" class="photo-section-label">photo</label>
 
-     <input type="checkbox" name="photo-section-checkbox" id="photo-section-checkbox" class="photo-section-checkbox" value="value">
-     <label for="photo-section-checkbox" class="photo-section-label">photo</label>
-
-     <input type="checkbox" name="music-section-checkbox" id="music-section-checkbox" class="music-section-checkbox" value="value">
-     <label for="music-section-checkbox" class="music-section-label">music</label>
+      <input type="checkbox" name="music-section-checkbox" id="music-section-checkbox" class="music-section-checkbox" value="value">
+      <label for="music-section-checkbox" class="music-section-label">music</label>
 
 
-     <section id="web" class="sitesection">
-          <div class="section-content">
-             <h3>Web</h3>
-             <img class="categorylogo" src="img/laptop_computer-white.svg" alt="tablet icon">
-             <a href="#!">
-             <h4>Covalent</h4>
-             <p>Science fiction website completed as final project of Web Design course at the Minneapolis College of Art &amp; Design.</p>
-             </a>
-             <a class="categorybttn" href="#!">more projects</a>
-          </div>
-          <label for="web-section-checkbox" class="web-section-label"><i class="fa fa-angle-double-up" aria-hidden="true"></i></label>
-     </section>
-     </div>
+      <section id="web" class="sitesection">
+        <div class="section-content">
+          <h3>Web</h3>
+          <img class="categorylogo" src="img/laptop_computer-white.svg" alt="tablet icon">
+          <a href="#!">
+            <img class="webshowcase" src="img/covalent_showcase.png" alt="3 images of Covalent website, one foe desktop, tablet, and mobile">
+            <h4>Covalent</h4>
+            <p>Science fiction website completed as final project of Web Design course at the Minneapolis College of Art &amp; Design.</p>
+          </a>
+            <a class="categorybttn" href="#!">more projects</a>
+        </div>
+          <label for="web-section-checkbox" class="web-section-label-close"><i class="fa fa-angle-double-up" aria-hidden="true"></i></label>
+       </section>
 
-
-
-     <section id="writing" class="sitesection">
-          <div class="section-content">
-             <h3>Writing</h3>
-             <img class="categorylogo" src="img/brand_book-white.svg" alt="book icon">
-             <a href="#!">
+       <section id="writing" class="sitesection">
+         <div class="section-content">
+           <h3>Writing</h3>
+           <img class="categorylogo" src="img/brand_book-white.svg" alt="book icon">
+           <a href="#!">
              <h4>A Marketing Noob</h4>
              <p>Marketing blog for my Digital Marketing Prinicples course at the Minneapolis College of Art &amp; Design.</p>
-             </a>
-             <a class="categorybttn" href="#!">more projects</a>
+           </a>
+              <a class="categorybttn" href="#!">more projects</a>
           </div>
-          <label for="writing-section-checkbox" class="writing-section-label"><i class="fa fa-angle-double-left" aria-hidden="true"></i></label>
-     </section>
+            <label for="writing-section-checkbox" class="writing-section-label-close"><i class="fa fa-angle-double-right" aria-hidden="true"></i></label>
+       </section>
 
-     <section id="photo" class="sitesection">
-          <div class="section-content">
-             <h3>Photo</h3>
-             <img class="categorylogo" src="img/digital_camera-white.svg" alt="camera icon">
-             <a href="#!">
+       <section id="photo" class="sitesection">
+         <div class="section-content">
+           <h3>Photo</h3>
+           <img class="categorylogo" src="img/digital_camera-white.svg" alt="camera icon">
+           <a href="#!">
              <h4>Molten</h4>
-             <p>Aerial series of photos of lava flows in Hawaii Volcanoes National Park.</p>
-             </a>
-             <a class="categorybttn" href="#!">more projects</a>
-          </div>
-          <label for="photo-section-checkbox" class="photo-section-label"><i class="fa fa-angle-double-right" aria-hidden="true"></i></label>
-     </section>
+             <p>Aerial series of photos of lava flows in Hawaii Volcanoes National Park. (PHOTOS COMING!)</p>
+           </a>
+              <a class="categorybttn" href="#!">more projects</a>
+            </div>
+            <label for="photo-section-checkbox" class="photo-section-label-close"><i class="fa fa-angle-double-left" aria-hidden="true"></i></label>
+       </section>
 
-
-
-     <section id="music" class="sitesection">
-          <div class="section-content">
-             <h3>Music</h3>
-             <img class="categorylogo" src="img/hi-fi_audio_speaker-white.svg" alt="speaker icon">
-             <a href="#!">
-             <h4>Red Orange Yellow</h4>
-             <p>Band I was in. We did some synth stuff.</p>
-             </a>
-             <a class="categorybttn" href="#!">more projects</a> 
-          </div>
-          <label for="music-section-checkbox" class="music-section-label"><i class="fa fa-angle-double-down" aria-hidden="true"></i></label>
+       <section id="music" class="sitesection">
+         <div class="section-content">
+            <h3>Music</h3>
+            <img class="categorylogo" src="img/hi-fi_audio_speaker-white.svg" alt="speaker icon">
+            <a href="#!">
+              <h4>Red Orange Yellow</h4>
+              <p>Band I was in. We did some synth stuff.(MEDIA PLAYER COMING!)</p>
+            </a>
+               <a class="categorybttn" href="#!">more projects</a>
+            </div>
+            <label for="music-section-checkbox" class="music-section-label-close"><i class="fa fa-angle-double-down" aria-hidden="true"></i></label>
+        </section>
       </section>
    </main>
 
@@ -119,7 +103,6 @@
          <img class="footertexturecenter" src="img/hextexture4-white.svg" alt="circuitry texture">
        </div>
    </footer>
-
  </body>
 
  </html>
